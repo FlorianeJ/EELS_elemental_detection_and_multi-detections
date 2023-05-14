@@ -103,7 +103,7 @@ def Ib_Ik_computation (popt, pcov, ParameterElement, index, Signal, Model, ligne
 ListeElement = ['Carbon', 'Oxygen', 'Iron', 'Aluminium', 'Silicium']
 ParameterElement = {}
 ParameterElement['Carbon'] = {"Background_fit": (253, 278), "Intregation_boundaries": (280, 305), "counter": 0,"SNR_detection":1.0009}
-ParameterElement['Oxygen'] = {"Background_fit": (465, 515), "Intregation_boundaries": (525, 570), "counter": 0,"SSNR_detection":1.004}
+ParameterElement['Oxygen'] = {"Background_fit": (465, 515), "Intregation_boundaries": (525, 570), "counter": 0,"SNR_detection":1.004}
 ParameterElement['Iron'] = {"Background_fit": (628,690), "Intregation_boundaries": (693, 720), "counter": 0,"SNR_detection":1.001}
 ParameterElement['Aluminium'] = {"Background_fit": (1432, 1532), "Intregation_boundaries": (1545, 1674), "counter": 0,"SNR_detection":1.0019}
 ParameterElement['Silicium'] = {"Background_fit": (1654, 1815), "Intregation_boundaries": (1830, 1970), "counter": 0,"SNR_detection":1.0012}
